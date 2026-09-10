@@ -1,0 +1,37 @@
+<svg width="1280" height="480" viewBox="0 0 1280 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102A22"/>
+      <stop offset="1" stop-color="#1B5541"/>
+    </linearGradient>
+    <linearGradient id="line" x1="740" y1="330" x2="1215" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#93E0AF"/>
+      <stop offset="1" stop-color="#D2FF77"/>
+    </linearGradient>
+    <linearGradient id="area" x1="940" y1="76" x2="940" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B2EDB9" stop-opacity=".27"/>
+      <stop offset="1" stop-color="#B2EDB9" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="688" y="45" width="574" height="345" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#B1DBC5" stroke-opacity=".1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="480" rx="16" fill="url(#bg)"/>
+  <rect width="1280" height="480" rx="16" fill="url(#grid)"/>
+  <circle cx="77" cy="74" r="5" fill="#B4ECBE"/>
+  <text x="99" y="80" fill="#B4ECBE" font-family="monospace" font-size="14" letter-spacing="3">DISHANT RANA / DATA ANALYTICS</text>
+  <text x="74" y="202" fill="#F7FAF4" font-family="Arial, sans-serif" font-size="68" font-weight="700" letter-spacing="-3">Data, made</text>
+  <text x="74" y="276" fill="#D2FF77" font-family="Georgia, serif" font-size="75" font-style="italic">useful.</text>
+  <text x="78" y="341" fill="#B6D6C5" font-family="Arial, sans-serif" font-size="19">SQL · EXCEL · POWER BI · PYTHON · AI-ASSISTED INSIGHTS</text>
+  <text x="78" y="410" fill="#74B491" font-family="monospace" font-size="13" letter-spacing="2">OPEN TO DATA ANALYST OPPORTUNITIES</text>
+  <line x1="714" y1="348" x2="1215" y2="348" stroke="#B1DBC5" stroke-opacity=".25"/>
+  <line x1="714" y1="91" x2="714" y2="348" stroke="#B1DBC5" stroke-opacity=".25"/>
+  <path d="M714 314C755 298 782 326 823 274C861 226 902 252 938 234C982 211 1002 169 1045 178C1090 188 1108 136 1143 145C1178 153 1195 116 1215 92V348H714V314Z" fill="url(#area)"/>
+  <path d="M714 314C755 298 782 326 823 274C861 226 902 252 938 234C982 211 1002 169 1045 178C1090 188 1108 136 1143 145C1178 153 1195 116 1215 92" stroke="url(#line)" stroke-width="5" filter="url(#glow)"/>
+  <g fill="#D2FF77" stroke="#1B5541" stroke-width="5"><circle cx="823" cy="274" r="8"/><circle cx="1045" cy="178" r="8"/><circle cx="1215" cy="92" r="10"/></g>
+  <text x="714" y="382" fill="#74B491" font-family="monospace" font-size="12" letter-spacing="1">JAN</text><text x="870" y="382" fill="#74B491" font-family="monospace" font-size="12" letter-spacing="1">APR</text><text x="1020" y="382" fill="#74B491" font-family="monospace" font-size="12" letter-spacing="1">JUL</text><text x="1175" y="382" fill="#74B491" font-family="monospace" font-size="12" letter-spacing="1">NOW</text>
+</svg>
